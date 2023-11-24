@@ -9,7 +9,7 @@
   ],
   "require": {
     "php": ">=8.0.0 <8.3.0",
-    "getkirby/cms": "^3.9",
+    "getkirby/cms": "^4.0",
     "fabianmichael/kirby-meta": "dev-main",
     "moritzebeling/kirby-favicon": "^1.0"
   },
