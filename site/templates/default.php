@@ -1,19 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <?= css('assets/css/style.css') ?>
-  <title><?= $site->title() ?></title>
-</head>
+/**
+ * @var $kirby \Kirby\Cms\App
+ * @var $site \Kirby\Cms\Site
+ * @var $pages \Kirby\Cms\Pages
+ * @var $page \Kirby\Cms\Page
+ */
 
-<body>
-  <h1 class="p-4"><?= $page->title() ?></h1>
+$files = $site->images()->template('test')
+?>
 
-  <p class="bg-red-600">kirby startttt</p>
+<?php snippet('layouts/default', slots: true) ?>
 
+<main class="flex-grow p-4 mb-auto bg-yellow-200">
 
-</body>
+  <h1><?= $page->title() ?></h1>
 
-</html>
+  <?php foreach ($files as $file) : ?>
+    <?php snippet('blocks/picture', ['image' => $file, 'sizes' => '60vw', 'class' => 'mb-4'])
+    ?>
+  <?php endforeach ?>
+
+</main>

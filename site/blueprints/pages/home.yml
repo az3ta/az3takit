@@ -1,0 +1,9 @@
+title: Home
+
+tabs:
+  content:
+    sections:
+      pages:
+        type: pages
+
+  meta: tabs/meta/page

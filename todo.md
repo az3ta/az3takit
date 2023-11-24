@@ -1,0 +1,3 @@
+-   connect favicon plugin
+-   add base favicon image
+-   install alpinejs (?)
