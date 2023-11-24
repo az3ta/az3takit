@@ -1,0 +1,50 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/public/media/*
+!/media/.gitkeep
+
+# Lock files
+# ---------------
+
+*.lock
+.lock
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+*.sublime-workspace
+/.vscode
+/.idea
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Accounts + Sessions + Cache
+# ---------------------------
+
+/storage/*
+!/storage/accounts/.gitkeep
+!/storage/sessions/.gitkeep
+!/storage/cache/.gitkeep
+!/storage/logs/.gitkeep
+
+# License
+# -------
+
+/site/config/.license
+
+# --------------------
+# Kirby Starter Custom
+# --------------------
+
+/kirby
+/vendor
+/node_modules

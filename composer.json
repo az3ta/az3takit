@@ -1,0 +1,21 @@
+{
+  "name": "az3ta/az3takit",
+  "description": "personal kirby starterkit",
+  "authors": [
+    {
+      "name": "az3ta",
+      "homepage": "https://andreazaccuri.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0 <8.3.0",
+    "getkirby/cms": "^3.9",
+    "moritzebeling/kirby-favicon": "^1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  }
+}
