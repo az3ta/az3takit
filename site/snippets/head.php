@@ -8,7 +8,7 @@
   <?php snippet('meta') ?>
   <?php snippet('favicon') ?>
   <?= css('assets/css/style.css') ?>
-  <?= js('assets/js/main.js', ['defer' => true]) ?>
+  <?= js('assets/js/script.js', ['defer' => true]) ?>
 </head>
 
 <body class="flex flex-col justify-between h-screen">
